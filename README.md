@@ -4,6 +4,10 @@ Advent of Code is an annual programming event where participants solve daily puz
 
 These puzzles are designed to improve problem-solving skills and are language-agnostic, so you can solve them in your favorite programming language.
 
+
+## Personal Achievements
+
+
 I have managed to place on leaderboard **first 100** on **Day 13** and **Day 20**:
 
 | **Day** | **Rank Achieved** | **Leaderboard  URLs**                                           |
