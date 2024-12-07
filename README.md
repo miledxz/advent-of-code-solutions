@@ -8,7 +8,7 @@ These puzzles are designed to improve problem-solving skills and are language-ag
 ## Personal Achievements
 
 
-I have managed to place on leaderboard **first 100** on **Day 13** and **Day 20**:
+I have managed to place on leaderboard **first 100** on **Day 13** and **Day 20** in 2023:
 
 | **Day** | **Rank Achieved** | **Leaderboard  URLs**                                           |
 |---------|-------------------|-----------------------------------------------------------------|

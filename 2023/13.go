@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"aoc/utils"
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() any {
@@ -26,8 +26,6 @@ func Solve1() any {
 
 	return sum
 }
-
-
 
 func Solve2() any {
 	lns := utils.ReadLines("13.txt")
@@ -60,7 +58,7 @@ func Solve2() any {
 
 type Field struct {
 	H []uint64
-	V   []uint64
+	V []uint64
 }
 
 func parseField(lns []string) Field {
@@ -106,7 +104,6 @@ func sym1(lines []uint64) int {
 
 	return 0
 }
-
 
 func sym2(lns []uint64) int {
 	for i := 0; i < len(lns)-1; i++ {

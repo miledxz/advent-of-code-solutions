@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"aoc/utils"
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() any {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aoc/utils"
+	"/utils"
 	"fmt"
 )
 
@@ -58,7 +58,7 @@ func Solve1() int64 {
 type Num struct {
 	V int64
 	S utils.Point
-	E   utils.Point
+	E utils.Point
 }
 
 func ajdPoints(start utils.Point, end utils.Point) []utils.Point {

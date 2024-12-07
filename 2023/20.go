@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"aoc/utils"
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() any {
@@ -27,7 +27,7 @@ func Solve1() any {
 	}
 
 	bitpos := 0
-	for n, mod := range mods {
+	for _, mod := range mods {
 		switch mod.kind {
 		case ud:
 			mod.bnum = bitpos
@@ -162,7 +162,7 @@ type mod struct {
 	kind         modtype
 	destinations []string
 	sources      []string
-	bnum    int
+	bnum         int
 }
 
 func prsln(ln string) (string, *mod) {
@@ -211,7 +211,6 @@ func (bf *Bitfield) Get(bitIndex int) bool {
 func (bf *Bitfield) Len() int {
 	return len(bf.bits) * 64
 }
-
 
 func (bf *Bitfield) Unset(bitIndex int) {
 	wordIndex, offset := bitIndex/64, uint(bitIndex%64)
@@ -285,15 +284,13 @@ func Solve2() any {
 	}
 	fmt.Fprintln(f, "}")
 
-
-	val := int64(0b111101011011)                
-	val = utils.Lcm(val, int64(0b111100010111)) 
-	val = utils.Lcm(val, int64(0b111011010101)) 
-	val = utils.Lcm(val, int64(0b111010111001)) 
+	val := int64(0b111101011011)
+	val = utils.Lcm(val, int64(0b111100010111))
+	val = utils.Lcm(val, int64(0b111011010101))
+	val = utils.Lcm(val, int64(0b111010111001))
 
 	return val
 }
-
 
 func main() {
 	ans1 := Solve1()

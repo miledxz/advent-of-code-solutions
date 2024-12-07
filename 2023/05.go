@@ -1,12 +1,13 @@
 package main
 
 import (
-	"aoc/utils"
 	"fmt"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() int64 {
@@ -77,8 +78,8 @@ func Solve1() int64 {
 }
 
 type Diff struct {
-	S int64
-	E   int64
+	S    int64
+	E    int64
 	Move int64
 }
 

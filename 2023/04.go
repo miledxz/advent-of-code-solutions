@@ -1,10 +1,11 @@
 package main
 
 import (
-	"aoc/utils"
 	"fmt"
 	"strconv"
 	"strings"
+
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() any {

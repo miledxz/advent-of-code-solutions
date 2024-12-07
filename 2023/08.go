@@ -1,9 +1,10 @@
 package main
 
 import (
-	"aoc/utils"
 	"fmt"
 	"strings"
+
+	"github.com/miledxz/advent-of-code-solutions/utils"
 )
 
 func Solve1() any {
@@ -103,7 +104,7 @@ func Solve2() any {
 
 type Hit struct {
 	El string
-	S     int64
+	S  int64
 }
 
 func main() {
