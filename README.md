@@ -8,6 +8,13 @@ These puzzles are designed to improve problem-solving skills and are language-ag
 ## Personal Achievements
 
 
+My results for **first 100** in 2024:
+
+| **Day** | **Rank Achieved** | **Leaderboard  URLs**                                           |
+|---------|-------------------|-----------------------------------------------------------------|
+| Day 9  | Top 100           | [Leaderboard for Day 9](https://adventofcode.com/2024/leaderboard/day/9) |
+
+
 I have managed to place on leaderboard **first 100** on **Day 13** and **Day 20** in 2023:
 
 | **Day** | **Rank Achieved** | **Leaderboard  URLs**                                           |
