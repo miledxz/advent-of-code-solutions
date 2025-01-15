@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 // Greatest Common Denominator
@@ -56,4 +57,26 @@ func ReadLines(fileName string) []string {
 	Check(err, "error reading lines")
 
 	return result
+}
+
+func ToInt(arg interface{}) int {
+	var val int
+	switch arg.(type) {
+	case string:
+		var err error
+		val, err = strconv.Atoi(arg.(string))
+		if err != nil {
+			panic("error converting a string to int" + err.Error())
+		}
+	default:
+		panic(fmt.Sprintf("unhandled type for int casting %T", arg))
+	}
+	return val
+}
+
+func Abs(a int) int {
+	if a < 0 {
+		return -a
+	}
+	return a
 }
